@@ -5,4 +5,12 @@ terraform {
       version = "~> 2.0"
     }
   }
+
+    cloud {
+    organization = "alkaitamazon"
+
+    workspaces {
+      name = "infra"
+    }
+  }
 }

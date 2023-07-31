@@ -7,10 +7,10 @@ terraform {
   }
 
   cloud {
-    organization = "alkait"
+    organization = "alkaitamazon"
 
     workspaces {
-      name = "example-workspace"
+      name = "container_registry"
     }
   }
 }
